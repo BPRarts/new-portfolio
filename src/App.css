@@ -5,6 +5,7 @@
 /* NavBar */
 .navbar{
   background-color: rgb(72, 0, 188);
+  
 }
 
 .navbar-name{
@@ -25,35 +26,79 @@
 
 @media (max-width: 768px) {
   .navbar-name {
-    font-size: 16px;
+    font-size: 28px;
   }
 }
 
-
+@media (max-width: 768px) {
+  .navbar {
+    height: 40px;
+  }
+}
 
 
 
 
 /* hero image*/
-.hero {
-  width: 100%; /* Default width for the image */
- 
+.hero-container {
+  display: grid;
+  grid-template-columns: auto 1fr; 
+  align-items: center;
+  grid-gap: 20px; 
+}
+
+.face {
+  width: 600px; 
+  height: auto; 
+}
+
+.me-title{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:rgb(56, 59, 255);
+  font-size: 70px;
+  font-weight: bolder;
+  text-decoration: underline;
   
+}
+
+.me-title2{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:rgb(56, 59, 255);
+  font-size: 50px;
+  font-weight: bolder;
   
- 
+}
+
+.me-description{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:rgb(56, 59, 255);
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+
+@media (max-width: 768px) {
+  .face {
+    width:390px ;
+    height: auto;
+  }
 }
 
 @media (max-width: 768px) {
-  /* Styles for screens up to 768px wide */
-  .hero {
-    width: 100%; /* Adjust the width for smaller screens */
+  .me-title {
+    font-size: 50px;
   }
 }
 
-@media (max-width: 480px) {
-  /* Styles for screens up to 480px wide */
-  .hero {
-    width: 100%; /* Adjust the width for even smaller screens */
+@media (max-width: 768px) {
+  .me-title2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .me-description {
+    font-size: 20px;
   }
 }
 
@@ -61,7 +106,21 @@
 
 
 
+@media (max-width: 768px) {
+  .hero-container {
+    display: inline;
+    position: relative;
+    bottom: 20px;
+    
+  }
+}
 
+@media (max-width: 768px) {
+  .me-container {
+    margin-bottom: 70px;
+    
+  }
+}
 
 
 
