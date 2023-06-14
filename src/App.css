@@ -33,6 +33,7 @@
   .navbar {
     height: 40px;
     width: 100%;
+    padding-top: 10px;
    
   }
 }
@@ -74,7 +75,6 @@
 
 .me-description{
   font-family:Georgia, 'Times New Roman', Times, serif;
-  color:rgb(56, 59, 255);
   font-size: 30px;
   font-weight: bolder;
 
@@ -83,6 +83,7 @@
 
 @media (max-width: 768px) {
   .face {
+    margin-top: 10px;
     width:350px ;
     height: auto;
   }
